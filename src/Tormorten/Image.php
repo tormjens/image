@@ -21,7 +21,7 @@ class Image extends SimpleImage {
 	            $TabColors = imagecolorsforindex ( $this->image , $rgb );
 	            $color_r = floor($TabColors['red'] * $rgbs[0] / 255);
 	            $color_g = floor($TabColors['green'] * $rgbs[1] / 255);
-	            $color_b = floor($TabColors['blue'] * $rgbs[1] / 255);
+	            $color_b = floor($TabColors['blue'] * $rgbs[2] / 255);
 	            $newcol = imagecolorallocate( $this->image, $color_r,$color_g,$color_b );
 	            imagesetpixel( $this->image, $x, $y, $newcol );
 	        }
