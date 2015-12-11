@@ -1,6 +1,6 @@
 {
     "name": "tormorten/image",
-    "description": "Image manipulation class extending SimpleImage. Adds multiply-blend mode",
+    "description": "Image manipulation class extending SimpleImage. Adds multiply-blend mode.",
     "license": "MIT",
     "authors": [
         {
@@ -12,5 +12,8 @@
         "psr-0": {
             "Tormorten": "src"
         }
+    },
+    "require": {
+        "abeautifulsite/simpleimage": "^2.6"
     }
 }
