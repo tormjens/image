@@ -1,0 +1,16 @@
+{
+    "name": "tormorten/image",
+    "description": "Image manipulation class extending SimpleImage. Adds multiply-blend mode",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tor Morten Jensen",
+            "email": "tormorten@tormorten.no"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Tormorten": "src"
+        }
+    }
+}
